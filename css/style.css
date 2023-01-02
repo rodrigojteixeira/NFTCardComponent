@@ -29,3 +29,18 @@ body {
     overflow: hidden;
     position: relative;
 }
+
+.img-top img{
+    width: 100%;
+    display: block;
+}
+
+.img-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(178, 100%, 50%, 0.5);
+    display: none;
+}
