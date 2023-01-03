@@ -41,6 +41,15 @@ body {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: hsl(178, 100%, 50%, 0.5);
+    background-color: hsla(178, 100%, 50%, 0.5);
     display: none;
 }
+
+.img-overlay img{
+    position: absolute;
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
