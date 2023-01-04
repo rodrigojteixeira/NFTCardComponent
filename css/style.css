@@ -45,11 +45,60 @@ body {
     display: none;
 }
 
-.img-overlay img{
+.img-overlay img {
     position: absolute;
     width: 50px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.img-top:hover .img-overlay{
+    display: block;
+}
+
+.box-text a{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 21px;
+    padding: 20px 0;
+    display: inline-block;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.eth, .days {
+    display: flex;
+    align-items: center;
+}
+
+.eth p {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    padding-left: 7px;
+}
+
+.days p{
+    padding-left: 7px;
+}
+
+hr {
+    border-color: hsl(215, 32%, 27%);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
 }
 
